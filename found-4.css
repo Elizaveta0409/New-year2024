@@ -1,0 +1,82 @@
+header{
+    width: 100%;
+    height: 5vh;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.Logo{
+    width: 80%;
+    height: 80%;
+    font-size: 14pt;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Logo img{
+    width: 100%;
+    height: 100%;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+}
+@font-face {
+    font-family: "font1";
+    src: url("ofont.ru_Kudriashov.ttf");
+}
+#text1{
+    font-family: "font1";
+}
+.main text{
+    text-transform: capitalize;
+}
+p{
+    color: rgb(0, 0, 0);
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+footer{
+    grid-area: my-footer;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+}
+footer div{
+    border: 1px solid black;
+}
+.maket_page{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255)
+}
+.img_bloks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 180px;
+}
+.img_image_block{
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.aside{
+    width: 100%;
+    height: 100%;
+}
+.img_image_block img{
+    width: 30%;
+    height: 30%;
+}
